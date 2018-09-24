@@ -1,0 +1,12 @@
+{
+    "name": "fkn/kirby",
+    "authors": [
+        {
+            "name": "knuch",
+            "email": "knuchelf@gmail.com"
+        }
+    ],
+    "require": {
+        "fvsch/kirby-twig": "^3.0"
+    }
+}

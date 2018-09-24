@@ -1,0 +1,24 @@
+{% extends "base.twig" %}
+
+{% block content %}
+  <main class="main" role="main">
+
+    <header class="wrap">
+      <h1>{{ page.title.html }}</h1>
+      <div class="intro text">
+        {{ page.text.kirbytext()|raw }}
+      </div>
+      <hr />
+    </header>
+
+    <div class="wrap wide">
+      <h1>Hello Kirby</h1>
+      {% for foo in bar %}
+        <p>{{foo}}</p>
+      {% endfor %}
+
+      {{ snippet('showcase') }}
+    </div>
+
+  </main>
+{% endblock content %}
